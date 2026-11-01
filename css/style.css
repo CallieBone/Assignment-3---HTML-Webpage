@@ -1,0 +1,96 @@
+/* Global Styles */
+body {
+    background-color: #fff0f5;
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    color: #5c3a4d;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #ffb6c1;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 4px solid #ff69b4;
+}
+
+h1, h2, h3 {
+    color: #d63384;
+}
+
+/* Main Content */
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* Sections */
+section {
+    background-color: white;
+    border: 2px solid #ffc0cb;
+    border-radius: 15px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 3px 3px 10px rgba(255, 182, 193, 0.3);
+}
+
+/* Lists */
+ul, ol {
+    padding-left: 25px;
+}
+
+/* Images */
+img {
+    border: 4px solid #ff69b4;
+    border-radius: 15px;
+    display: block;
+    margin: 10px auto;
+}
+
+/* Links */
+a {
+    color: #ff1493;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #c71585;
+    text-decoration: underline;
+}
+
+/* Forms */
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 2px solid #ffc0cb;
+    border-radius: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #d63384;
+}
+
+footer {
+    background-color: #ffb6c1;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
